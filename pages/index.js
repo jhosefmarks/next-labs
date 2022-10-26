@@ -10,7 +10,7 @@ function Home() {
 }
 
 function Contador() {
-  const [contador, setContador] = useState(1);
+  const [contador, setContador] = useState(0);
 
   function adicionarContador() {
     setContador(contador + 1);
@@ -18,8 +18,8 @@ function Contador() {
 
   return (
     <div>
-      <div>{contador}</div>
-      <button onClick={adicionarContador}>Adicionar</button>
+      <div>Clicks: {contador}</div>
+      <button onClick={adicionarContador}>Clique aqui!!!</button>
     </div>
   );
 }
