@@ -3,7 +3,8 @@ import { useState } from "react";
 function Home() {
   return (
     <div>
-      <h1>Hello NextJS!!!</h1>
+      <h1>Home!!!</h1>
+      <a href="/sobre">Sobre</a>
       <Contador />
     </div>
   );
